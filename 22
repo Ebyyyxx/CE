@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>A trip proposal for CE 💙 </title>
+  <style>
+    body {
+      background: linear-gradient(pink, red);
+      font-family: 'Georgia', serif;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+    h1 { font-size: 4rem; text-shadow: 2px 2px 4px #8b0000; }
+    .heart { font-size: 8rem; animation: beat 1s infinite; }
+    @keyframes beat { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); } }
+    .message { font-size: 1.5rem; max-width: 600px; margin: 20px; }
+  </style>
+</head>
+<body>
+  <div class="heart">❤️</div>
+  <h1>Happy Valentine's Day!</h1>
+  <p class="message">To my special someone,<br>You make my heart skip a beat every day. 💕</p>
+</body>
+</html>
